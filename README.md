@@ -16,3 +16,40 @@ Original images are 8-bit grayscale image.  A novel approach has been developed 
 per Kellgren and Lawrence grades.
 
 #### Working:
+
+
+#### DEPENDENCY
+Total no of files: The total number of files required to create this model are 6 files.
+![image](https://github.com/autesakshi/EditREADME/assets/96119061/b7012d28-4404-4e7a-8e27-238146b8222d)
+
+1]Static file:
+This file is consist of 2 sub files which are 
+          - .Css file
+          - .js file
+CSS and js files are used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
+
+2]Templete file:
+This file is consist of 2 sub files which are 
+          - index.html file
+          - base.html file
+we have created this HTML file for creating Web pages
+HTML file describes the structure of a Web page
+HTML files are consists of a series of elements
+HTML file elements tell the browser how to display the content
+
+3]Test sample file:
+This file is consist of different knee image of several type sech as doutfull,moderate,mild,etc 
+we are using this images to predict the output weather the person is suffering from the dignosis or not
+and at what stage
+
+4]app file:
+
+
+
+5]Model file:
+
+
+
+#### PERFORMANCE ANALYSIS:
+
+
