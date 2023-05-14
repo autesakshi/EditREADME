@@ -18,6 +18,7 @@ per Kellgren and Lawrence grades.
 #### Working:
 
 
+
 #### DEPENDENCY
 Total no of files: The total number of files required to create this model are 6 files.
 ![image](https://github.com/autesakshi/EditREADME/assets/96119061/b7012d28-4404-4e7a-8e27-238146b8222d)
@@ -26,7 +27,8 @@ Total no of files: The total number of files required to create this model are 6
 This file is consist of 2 sub files which are 
           - .Css file
           - .js file
-CSS and js files are used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
+CSS and js files are used to define styles for your web pages, including the design, layout and variations 
+in display for different devices and screen sizes.
 
 2]Templete file:
 This file is consist of 2 sub files which are 
@@ -43,11 +45,14 @@ we are using this images to predict the output weather the person is suffering f
 and at what stage
 
 4]app file:
-
-
+* The app.py file typically begins by importing the necessary dependencies
+* The app.py file defines the routes for the application, which determine how incoming requests are processed
+* This file also defines the functions that will handle the incoming requests.
+* Finally, the app.py file includes code to start the application and listen for incoming requests. 
 
 5]Model file:
-
+The model file typically contains the code for the machine learning model itself. The model file is responsible 
+for loading and preprocessing the data, training the model on that data, and generating predictions for new data.
 
 
 #### PERFORMANCE ANALYSIS:
