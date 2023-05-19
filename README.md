@@ -16,7 +16,23 @@ Original images are 8-bit grayscale image.  A novel approach has been developed 
 per Kellgren and Lawrence grades.
 
 #### Working:
-
+Step1: Data Preprocessing: 
+Convert image rgb to gray. 
+Resizing the image using cv2.resize so that we get the fixed common size for all the images in the dataset.
+Appending the image and the label (categorized) into the list (dataset) using data.append(resized) and label.append(label_dict[category]).
+Step2: Convolutional Neural Network architectures.
+Here from keras.models we import Sequential (data types that are an ordered set )
+ From keras.layers import Conv2D (this creates a convolution kernel that is wind with layers input which helps produce a tensor of outputs), Activation (compares the input value to a threshold value), MaxPooling2D (calculates the largest or maximum value in every patch and the feature map), Dense, Flatten (returns a copy of the array in one dimensional rather than in 2-D or a multi-dimensional array).
+Step3: Splitting data into training and testing
+For splitting the data we import train_test_split from sklearn.model_selection.
+Here we have split the data into 20% test and 80% train.
+Get the visualization.
+Split data for validation split.
+In this we find the accuracy, loss through epochs.
+Save the CNN model as model.h5
+Randomly select data for text and check the loss and accuracy.
+Then we import pyplot from matplotlib to plot the training loss and accuracy.
+Plot the confusion matrix(to evaluate the performance and analyze the efficiency of the model) by importing confusion_matrix from sklearn.metrices.
 
 
 #### DEPENDENCY
@@ -54,7 +70,7 @@ and at what stage
 The model file typically contains the code for the machine learning model itself. The model file is responsible 
 for loading and preprocessing the data, training the model on that data, and generating predictions for new data.
 
-
 #### PERFORMANCE ANALYSIS:
+
 
 
